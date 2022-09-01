@@ -12,6 +12,6 @@ public class WriterFileJson {
         BufferedWriter bufferedWriter = new BufferedWriter(writer);
 
         bufferedWriter.write(apiClient.getFileJson());
-        bufferedWriter.newLine();
+        bufferedWriter.close();
     }
 }

@@ -1,5 +1,8 @@
+package br.com.seven.days.code.service;
+
 import br.com.seven.days.code.model.APIClient;
 
+import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
 import java.io.IOException;
@@ -18,7 +21,7 @@ public class JsonParserTest {
         List<String> titleFilms = new ArrayList<>();
 
             for (int i = 0 ; i < 250; i++) {
-                matcher.find();
+                Assertions.assertTrue(matcher.find());
                 titleFilms.add(matcher.group(1));
             }
 

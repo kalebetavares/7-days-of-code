@@ -5,19 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="929ddcd2-3dcb-481b-94c4-841e464c89d4" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/WriterFileJson.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/seven/days/code/model/Movie.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/seven/days/code/service/JsonParser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/JsonParserTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/top250films.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/WriterFileJson.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/WriterFileJson.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/seven/days/code/model/Movie.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/seven/days/code/model/Movie.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/JsonParserTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/br/com/seven/days/code/service/JsonParserTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/top250films.json" beforeDir="false" afterPath="$PROJECT_DIR$/top250films.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,63 +31,88 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
   <component name="ProjectId" id="2Dzttt96U7he1NLwVmWBueDvnl9" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last.edited.regexp": "Sample Text",
-    "last_opened_file_path": "C:/Users/Kalebe Tavares/Desktop/Workspace/Alura/java-io",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last.edited.regexp&quot;: &quot;Sample Text&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Kalebe Tavares/Desktop/Workspace/alura-7-days-of-code/7-days-of-code&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;
   }
-}]]></component>
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="br.com.seven.days.code.service" />
+      <recent name="br.com.seven.days.code.model" />
+    </key>
+  </component>
   <component name="RunManager" selected="Application.Main">
-    <configuration name="ConsumingIMDB" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ConsumingIMDB" />
-      <module name="alura-7-days-of-code" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
-      <module name="alura-7-days-of-code" />
+      <module name="7-days-of-code" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MainTitleFilms" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="MainTitleFilms" />
-      <module name="alura-7-days-of-code" />
+    <configuration name="WriterFileJson" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="WriterFileJson" />
+      <module name="7-days-of-code" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="JsonParserTest.parseAtribute" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="alura-7-days-of-code" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="JsonParserTest" />
-      <option name="METHOD_NAME" value="parseAtribute" />
+    <configuration name="HTMLGeneratorTest.constructorHTMLGenerator" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="7-days-of-code" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="br.com.seven.days.code.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="br.com.seven.days.code.service" />
+      <option name="MAIN_CLASS_NAME" value="br.com.seven.days.code.service.HTMLGeneratorTest" />
+      <option name="METHOD_NAME" value="constructorHTMLGenerator" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="JsonParserTest.parseItems" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="alura-7-days-of-code" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="JsonParserTest" />
-      <option name="METHOD_NAME" value="parseItems" />
+    <configuration name="HTMLGeneratorTest.generate" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="7-days-of-code" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="br.com.seven.days.code.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="br.com.seven.days.code.service" />
+      <option name="MAIN_CLASS_NAME" value="br.com.seven.days.code.service.HTMLGeneratorTest" />
+      <option name="METHOD_NAME" value="generate" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="JsonParserTest.parseAtribute" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="7-days-of-code" />
+      <option name="PACKAGE_NAME" value="br.com.seven.days.code.service" />
+      <option name="MAIN_CLASS_NAME" value="br.com.seven.days.code.service.JsonParserTest" />
+      <option name="METHOD_NAME" value="parseAtribute" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -102,10 +121,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.Main" />
-        <item itemvalue="JUnit.JsonParserTest.parseItems" />
-        <item itemvalue="Application.MainTitleFilms" />
+        <item itemvalue="Application.WriterFileJson" />
+        <item itemvalue="JUnit.HTMLGeneratorTest.generate" />
+        <item itemvalue="JUnit.HTMLGeneratorTest.constructorHTMLGenerator" />
         <item itemvalue="JUnit.JsonParserTest.parseAtribute" />
-        <item itemvalue="Application.ConsumingIMDB" />
       </list>
     </recent_temporary>
   </component>
@@ -119,7 +138,18 @@
       <updated>1661713964418</updated>
       <workItem from="1661713970237" duration="3049000" />
       <workItem from="1661773458423" duration="19494000" />
-      <workItem from="1661863188877" duration="19881000" />
+      <workItem from="1661863188877" duration="20467000" />
+      <workItem from="1661889860624" duration="457000" />
+      <workItem from="1661949259446" duration="10128000" />
+      <workItem from="1661959488548" duration="2023000" />
+      <workItem from="1661962611136" duration="2413000" />
+      <workItem from="1661965047553" duration="781000" />
+      <workItem from="1661965847441" duration="303000" />
+      <workItem from="1661966215714" duration="8000" />
+      <workItem from="1661966524791" duration="293000" />
+      <workItem from="1661976865272" duration="664000" />
+      <workItem from="1661977662049" duration="878000" />
+      <workItem from="1662049653333" duration="296000" />
     </task>
     <servers />
   </component>
@@ -136,5 +166,8 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/7_days_of_code$Main.ic" NAME="Main Coverage Results" MODIFIED="1661964878895" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
 </project>
