@@ -4,15 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="929ddcd2-3dcb-481b-94c4-841e464c89d4" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/WriterFileJson.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/WriterFileJson.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/seven/days/code/model/Movie.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/seven/days/code/model/Movie.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/JsonParserTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/br/com/seven/days/code/service/JsonParserTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/top250films.json" beforeDir="false" afterPath="$PROJECT_DIR$/top250films.json" afterDir="false" />
-    </list>
+    <list default="true" id="929ddcd2-3dcb-481b-94c4-841e464c89d4" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -149,7 +141,7 @@
       <workItem from="1661966524791" duration="293000" />
       <workItem from="1661976865272" duration="664000" />
       <workItem from="1661977662049" duration="878000" />
-      <workItem from="1662049653333" duration="296000" />
+      <workItem from="1662049653333" duration="637000" />
     </task>
     <servers />
   </component>
