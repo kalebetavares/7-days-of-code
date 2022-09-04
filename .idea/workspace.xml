@@ -5,13 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="929ddcd2-3dcb-481b-94c4-841e464c89d4" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/WriterFileJson.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/WriterFileJson.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/br/com/seven/days/code/model/Movie.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/seven/days/code/model/Movie.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/JsonParserTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/br/com/seven/days/code/service/JsonParserTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/top250films.json" beforeDir="false" afterPath="$PROJECT_DIR$/top250films.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/seven/days/code/service/HTMLGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/seven/days/code/service/HTMLGenerator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/seven/days/code/service/JsonParser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/seven/days/code/service/ImdbJsonParser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/br/com/seven/days/code/service/HTMLGeneratorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/br/com/seven/days/code/service/HTMLGeneratorTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/br/com/seven/days/code/service/JsonParserTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/br/com/seven/days/code/service/ImdbJsonParserTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,6 +24,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -59,6 +63,9 @@
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="br.com.seven.days.code.service" />
       <recent name="br.com.seven.days.code.model" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="br.com.seven.days.code.service" />
     </key>
   </component>
   <component name="RunManager" selected="Application.Main">
@@ -108,10 +115,10 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="JsonParserTest.parseAtribute" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ImdbJsonParserTest.parseAtribute" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="7-days-of-code" />
       <option name="PACKAGE_NAME" value="br.com.seven.days.code.service" />
-      <option name="MAIN_CLASS_NAME" value="br.com.seven.days.code.service.JsonParserTest" />
+      <option name="MAIN_CLASS_NAME" value="br.com.seven.days.code.service.ImdbJsonParserTest" />
       <option name="METHOD_NAME" value="parseAtribute" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
@@ -124,7 +131,7 @@
         <item itemvalue="Application.WriterFileJson" />
         <item itemvalue="JUnit.HTMLGeneratorTest.generate" />
         <item itemvalue="JUnit.HTMLGeneratorTest.constructorHTMLGenerator" />
-        <item itemvalue="JUnit.JsonParserTest.parseAtribute" />
+        <item itemvalue="JUnit.ImdbJsonParserTest.parseAtribute" />
       </list>
     </recent_temporary>
   </component>
@@ -150,6 +157,9 @@
       <workItem from="1661976865272" duration="664000" />
       <workItem from="1661977662049" duration="878000" />
       <workItem from="1662049653333" duration="296000" />
+      <workItem from="1662136482815" duration="3531000" />
+      <workItem from="1662318010169" duration="488000" />
+      <workItem from="1662319134382" duration="10562000" />
     </task>
     <servers />
   </component>

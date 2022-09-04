@@ -1,17 +1,17 @@
-import br.com.seven.days.code.model.APIClient;
+import br.com.seven.days.code.model.ImdbApiClient;
 
 import java.io.*;
 
 public class WriterFileJson {
 
     public static void main(String[] args) throws IOException, InterruptedException {
-        APIClient apiClient = new APIClient();
+        ImdbApiClient imdbApiClient = new ImdbApiClient();
 
         OutputStream file = new FileOutputStream("top250films.json");
         Writer writer = new OutputStreamWriter(file);
         BufferedWriter bufferedWriter = new BufferedWriter(writer);
 
-        bufferedWriter.write(apiClient.getFileJson());
+        bufferedWriter.write(imdbApiClient.getFileJson());
         bufferedWriter.close();
     }
 }

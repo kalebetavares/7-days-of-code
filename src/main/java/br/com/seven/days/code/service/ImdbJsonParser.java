@@ -7,8 +7,10 @@ import java.util.ArrayList;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
-public class JsonParser {
-    public List<Movie> top250Movies(String json){
+public class ImdbJsonParser implements JsonParsing{
+
+    @Override
+    public List<Movie> parse(String json){
         List<String> title = parseTitle(json);
         List<String> urlImage = parseUrlImage(json);
         List<String> rating = parseRating(json);
@@ -43,7 +45,9 @@ public class JsonParser {
         Matcher matcher = Pattern.compile("\""+attribute+"\":\"(.*?)\"").matcher(json);
         List<String> resultAttribute = new ArrayList<>();
         for (int i = 0; i < 250; i++){
-            matcher.find();
+            if (!matcher.find()){
+                throw new IllegalArgumentException();
+            }
             resultAttribute.add(matcher.group(1));
         }
         return resultAttribute;

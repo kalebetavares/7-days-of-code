@@ -1,6 +1,6 @@
 package br.com.seven.days.code.service;
 
-import br.com.seven.days.code.model.APIClient;
+import br.com.seven.days.code.model.ImdbApiClient;
 
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
@@ -11,13 +11,13 @@ import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 import java.util.List;
 
-public class JsonParserTest {
+public class ImdbJsonParserTest {
 
     @Test
     public void parseAtribute() throws IOException, InterruptedException {
-        APIClient apiClient = new APIClient();
+        ImdbApiClient imdbApiClient = new ImdbApiClient();
         String attribute = "fullTitle";
-        Matcher matcher = Pattern.compile("\""+attribute+"\":\"(.*?)\"").matcher(apiClient.getFileJson());
+        Matcher matcher = Pattern.compile("\""+attribute+"\":\"(.*?)\"").matcher(imdbApiClient.getFileJson());
         List<String> titleFilms = new ArrayList<>();
 
             for (int i = 0 ; i < 250; i++) {

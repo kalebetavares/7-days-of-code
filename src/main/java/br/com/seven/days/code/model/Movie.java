@@ -1,6 +1,8 @@
 package br.com.seven.days.code.model;
 
-public class Movie {
+import br.com.seven.days.code.service.Content;
+
+public class Movie implements Content {
     private String title;
     private String urlImage;
     private String rating;
@@ -13,19 +15,23 @@ public class Movie {
         this.year = year;
     }
 
-    public String getTitle() {
+    @Override
+    public String title() {
         return this.title;
     }
 
-    public String getUrlImage() {
+    @Override
+    public String urlImage() {
         return this.urlImage;
     }
 
-    public String getRating() {
+    @Override
+    public String rating() {
         return this.rating;
     }
 
-    public String getYear() {
+    @Override
+    public String year() {
         return this.year;
     }
 
