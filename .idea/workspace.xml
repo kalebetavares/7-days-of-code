@@ -12,9 +12,15 @@
       <change beforePath="$PROJECT_DIR$/src/main/java/WriterFileJson.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/WriterFileJson.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/br/com/seven/days/code/model/Movie.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/seven/days/code/model/Movie.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/br/com/seven/days/code/service/HTMLGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/seven/days/code/service/HTMLGenerator.java" afterDir="false" />
+<<<<<<< HEAD
       <change beforePath="$PROJECT_DIR$/src/main/java/br/com/seven/days/code/service/JsonParser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/seven/days/code/service/JsonParser.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/br/com/seven/days/code/service/HTMLGeneratorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/br/com/seven/days/code/service/HTMLGeneratorTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/br/com/seven/days/code/service/JsonParserTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/br/com/seven/days/code/service/JsonParserTest.java" afterDir="false" />
+=======
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/seven/days/code/service/JsonParser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/seven/days/code/service/ImdbJsonParser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/br/com/seven/days/code/service/HTMLGeneratorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/br/com/seven/days/code/service/HTMLGeneratorTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/br/com/seven/days/code/service/JsonParserTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/br/com/seven/days/code/service/ImdbJsonParserTest.java" afterDir="false" />
+>>>>>>> release/v0.0.3
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,6 +30,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
         <option value="Interface" />
       </list>
@@ -65,7 +72,11 @@
       <recent name="br.com.seven.days.code.model" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+<<<<<<< HEAD
       <recent name="br.com.seven.days.code.model" />
+=======
+      <recent name="br.com.seven.days.code.service" />
+>>>>>>> release/v0.0.3
     </key>
   </component>
   <component name="RunManager" selected="Application.Main">
@@ -115,10 +126,10 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="JsonParserTest.parseAtribute" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ImdbJsonParserTest.parseAtribute" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="7-days-of-code" />
       <option name="PACKAGE_NAME" value="br.com.seven.days.code.service" />
-      <option name="MAIN_CLASS_NAME" value="br.com.seven.days.code.service.JsonParserTest" />
+      <option name="MAIN_CLASS_NAME" value="br.com.seven.days.code.service.ImdbJsonParserTest" />
       <option name="METHOD_NAME" value="parseAtribute" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
@@ -131,7 +142,7 @@
         <item itemvalue="Application.WriterFileJson" />
         <item itemvalue="JUnit.HTMLGeneratorTest.generate" />
         <item itemvalue="JUnit.HTMLGeneratorTest.constructorHTMLGenerator" />
-        <item itemvalue="JUnit.JsonParserTest.parseAtribute" />
+        <item itemvalue="JUnit.ImdbJsonParserTest.parseAtribute" />
       </list>
     </recent_temporary>
   </component>
@@ -156,8 +167,15 @@
       <workItem from="1661966524791" duration="293000" />
       <workItem from="1661976865272" duration="664000" />
       <workItem from="1661977662049" duration="878000" />
+<<<<<<< HEAD
       <workItem from="1662049653333" duration="1080000" />
       <workItem from="1662124852961" duration="4673000" />
+=======
+      <workItem from="1662049653333" duration="296000" />
+      <workItem from="1662136482815" duration="3531000" />
+      <workItem from="1662318010169" duration="488000" />
+      <workItem from="1662319134382" duration="10562000" />
+>>>>>>> release/v0.0.3
     </task>
     <servers />
   </component>
