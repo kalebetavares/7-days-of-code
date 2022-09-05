@@ -1,7 +1,6 @@
 package br.com.seven.days.code.service;
 
 import br.com.seven.days.code.model.ImdbApiClient;
-
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 

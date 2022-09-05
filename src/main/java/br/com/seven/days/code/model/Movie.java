@@ -2,6 +2,8 @@ package br.com.seven.days.code.model;
 
 import br.com.seven.days.code.service.Content;
 
+import java.util.Comparator;
+
 public class Movie implements Content {
     private String title;
     private String urlImage;
@@ -43,5 +45,15 @@ public class Movie implements Content {
                 ", rating:'" + this.rating + '\'' +
                 ", year:'" + this.year + '\'' +
                 '}';
+    }
+
+    @Override
+    public int compareTo(Content other) {
+        return this.rating().compareTo(other.rating());
+    }
+
+
+    public int compareTitle(Content other){
+        return this.title().compareTo(other.title());
     }
 }

@@ -37,4 +37,5 @@ build/
 ### Mac OS ###
 .DS_Store
 
-/src/main/java/br/com/seven/days/code/model/ImdbApiClient.java
+
+/src/main/java/br/com/seven/days/code/model/ImdbApiClientPrivateKey.java

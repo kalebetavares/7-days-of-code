@@ -1,9 +1,11 @@
 import br.com.seven.days.code.model.ImdbApiClient;
+
 import br.com.seven.days.code.service.HTMLGenerator;
 import br.com.seven.days.code.service.ImdbJsonParser;
 import br.com.seven.days.code.model.Movie;
 
 import java.io.*;
+import java.util.Collections;
 import java.util.List;
 
 public class Main {
@@ -13,6 +15,7 @@ public class Main {
         ImdbJsonParser imdbJsonParser = new ImdbJsonParser();
 
         List<Movie> movies = imdbJsonParser.parse((imdbApiClient.getFileJson()));
+        Collections.sort(movies, Movie::compareTitle);
 
         PrintWriter writerFile = new PrintWriter("index.html");
 

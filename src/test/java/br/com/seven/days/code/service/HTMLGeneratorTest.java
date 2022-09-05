@@ -1,6 +1,6 @@
 package br.com.seven.days.code.service;
 
-import br.com.seven.days.code.model.ImdbApiClient;
+import br.com.seven.days.code.model.ImdbApiClientPrivateKey;
 import br.com.seven.days.code.model.Movie;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.BeforeEach;
@@ -39,7 +39,7 @@ public class HTMLGeneratorTest {
     @Test
     public void generate() throws IOException, InterruptedException {
         constructorHTMLGenerator();
-        ImdbApiClient imdbApiClient = new ImdbApiClient();
+        ImdbApiClientPrivateKey imdbApiClient = new ImdbApiClientPrivateKey();
         ImdbJsonParser imdbJsonParser = new ImdbJsonParser();
 
         List<Movie> movies = imdbJsonParser.parse((imdbApiClient.getFileJson()));
